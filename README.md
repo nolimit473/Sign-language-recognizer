@@ -20,10 +20,10 @@ and a TensorFlow/Keras model.
 - **Note**: gestures for (J,Z,etc) that involve movement have been replaced with alternative static gestures
 
 ## Results
--The model is able to recognize most hand gestures in real-time.
--Some gestures are harder to distinguish due to their similarity and model struggles in very bright/poor lighting conditions.
--Performance improves significantly with data augmentation.
--Future work includes collecting more samples and improving the deep learning architecture.
+- The model is able to recognize most hand gestures in real-time.
+- Some gestures are harder to distinguish due to their similarity and model struggles in very bright/poor lighting conditions.
+- Performance improves significantly with data augmentation.
+- Future work includes collecting more samples and improving the deep learning architecture.
 
 **How to Run**
 ```bash
