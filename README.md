@@ -32,3 +32,4 @@ cd Sign-language-recognizer
 pip install -r requirements.txt
 python src/train.py
 streamlit run src/sign.py
+⚠️ Note: This project requires **Python 3.11** (mediapipe is not yet compatible with Python 3.12+).
