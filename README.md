@@ -14,7 +14,7 @@ and a TensorFlow/Keras model.
 - Streamlit
 
 **Dataset**
-- Custom dataset of **3333** samples.
+- Custom dataset of **3332** samples.
 - Extracted **21 hand landmarks (x,y,z)** per frame.
 - Balanced via **augmentation**.
 
@@ -26,7 +26,7 @@ and a TensorFlow/Keras model.
 
 **How to Run**
 ```bash
-git clone https://github.com/your-username/Sign-language-recognizer.git
+git clone https://github.com/nolimit473/Sign-language-recognizer.git
 cd Sign-language-recognizer
 pip install -r requirements.txt
 python src/train.py
