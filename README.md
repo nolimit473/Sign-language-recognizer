@@ -5,7 +5,7 @@ This project is a real-time Sign Language Interpreter that recognizes
 hand gestures (A–Z + extra symbols) using hand landmarks from MediaPipe
 and a TensorFlow/Keras model.
 
-**Tech Stack**
+## Tech Stack
 - Python, TensorFlow/Keras
 - MediaPipe (for hand landmark extraction)
 - OpenCV (for real-time webcam integration)
@@ -13,10 +13,11 @@ and a TensorFlow/Keras model.
 - Matplotlib (for training/landmark visualization)
 - Streamlit
 
-**Dataset**
+## Dataset ##
 - Custom dataset of **3332** samples.
 - Extracted **21 hand landmarks (x,y,z)** per frame.
 - Balanced via **augmentation**.
+- **Note**: gestures for (J,Z,etc) that involve movement have been replaced with alternative static gestures
 
 **Results**
 The model is able to recognize most hand gestures in real-time.
@@ -31,6 +32,3 @@ cd Sign-language-recognizer
 pip install -r requirements.txt
 python src/train.py
 streamlit run src/sign.py
-
-
-
